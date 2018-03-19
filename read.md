@@ -26,6 +26,8 @@
 2. 将it文件夹放到应用服务器根目录下
 3. 打开mysql使用source命令运行data.sql
 4. 至此安装完成
+5. 后台默认账号密码：admin 123456
+6. 前端默认账号密码：user 123456
 
 ### 数据库配置
 - /it/application/database.php:修改该文件的账号以及密码即可，需要注意的是数据库管理员至少需要有创建表的权限
@@ -37,3 +39,20 @@
 ### 注意的事项
 - apache需要打开mod_rewrite.so模块
 - 视频播放目前只支持标准的mp4格式
+
+### 部分界面截图
+1. 后台管理截图
+
+![](https://i.imgur.com/9iBlmeq.png)
+
+![](https://i.imgur.com/K3ngwWB.png)
+
+![](https://i.imgur.com/BMXT4iO.png)
+
+2. 前台普通用户截图
+
+![](https://i.imgur.com/sokizi5.png)
+
+![](https://i.imgur.com/LCr2lMC.png)
+
+![](https://i.imgur.com/y14XUQ1.png)
